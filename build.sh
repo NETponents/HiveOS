@@ -15,10 +15,6 @@ i686-elf-gcc -T linker.ld -o myos.bin -ffreestanding -O2 -nostdlib boot.o kernel
 ###################################
 # GRUB                            #
 ###################################
-touch grub.cfg
-echo "menuentry \"HiveOS\" {" > grub.cfg
-echo "multiboot /boot/hiveos.bin" > grub.cfg
-echo "}" > grub.cfg
 mkdir -p isodir
 mkdir -p isodir/boot
 cp hiveos.bin isodir/boot/hiveos.bin
