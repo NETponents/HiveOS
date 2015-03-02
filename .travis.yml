@@ -1,4 +1,4 @@
-language: cpp
-script: "./build.sh"
+language: c
+script: "./make all"
 notifications:
   email: false
