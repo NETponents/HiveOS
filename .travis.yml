@@ -1,5 +1,5 @@
 language: c
-instal: nasm
+install: nasm
 script: make all
 notifications:
   email: false
