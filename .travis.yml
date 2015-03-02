@@ -1,5 +1,5 @@
 language: c
-install: nasm
+install: sudo apt-get install nasm
 script: make all
 notifications:
   email: false
