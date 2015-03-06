@@ -1,12 +1,12 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define KERNEL_NAME		"devos"		/* kernel name */
+#define KERNEL_NAME		"HiveOS"		/* kernel name */
 #define KERNEL_VERSION	"1"		/* kernel version */
 #define KERNEL_DATE		__DATE__
 #define KERNEL_TIME		__TIME__
-#define KERNEL_LICENCE	"Apache License"	/* license */
-#define KERNEL_COMPUTERNAME	"test-pc"	/* default name for the machine */
+#define KERNEL_LICENCE	"Proprietary license"	/* license */
+#define KERNEL_COMPUTERNAME	"master-netA"	/* default name for the machine */
 
 /* identifiant du processeur */
 #ifdef __x86__
