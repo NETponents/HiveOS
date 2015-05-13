@@ -49,7 +49,7 @@ void outportb (unsigned short _port, unsigned char _data)
 void main()
 {
     int i;
-
+    
     gdt_install();
     idt_install();
     isrs_install();
