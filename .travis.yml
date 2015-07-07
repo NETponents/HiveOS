@@ -1,5 +1,5 @@
 language: c
 notifications:
   email: false
-install: apt-get install nasm genisoimage
+install: sudo apt-get install nasm genisoimage
 script: ./build.sh
