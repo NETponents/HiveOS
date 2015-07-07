@@ -12,8 +12,8 @@ gcc -O -fstrength-reduce -fomit-frame-pointer -finline-functions -nostdinc -fno-
 echo "Linking..."
 ld -T link.ld -o kernel.bin start.o main.o scrn.o gdt.o idt.o isrs.o irq.o timer.o kb.o
 echo "Moving..."
-mkdir bin
-cp kernel.bin bin/kernel.bin
+mkdir ./bin
+cp ./kernel.bin ./bin/kernel.bin
 echo "Cleaning up..."
 rm *.bin
 rm *.o
